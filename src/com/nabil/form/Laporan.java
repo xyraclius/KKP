@@ -280,6 +280,11 @@ public class Laporan extends javax.swing.JFrame {
         tsimpan.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/nabil/images/save.png"))); // NOI18N
         tsimpan.setText("Simpan  ");
         tsimpan.setEnabled(false);
+        tsimpan.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                tsimpanMouseEntered(evt);
+            }
+        });
         tsimpan.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 tsimpanActionPerformed(evt);
@@ -289,6 +294,11 @@ public class Laporan extends javax.swing.JFrame {
         thitung.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/nabil/images/calculate.png"))); // NOI18N
         thitung.setText("Hitung     ");
         thitung.setEnabled(false);
+        thitung.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                thitungMouseEntered(evt);
+            }
+        });
         thitung.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 thitungActionPerformed(evt);
@@ -302,6 +312,9 @@ public class Laporan extends javax.swing.JFrame {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 tbersihMouseClicked(evt);
             }
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                tbersihMouseEntered(evt);
+            }
         });
         tbersih.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -312,6 +325,11 @@ public class Laporan extends javax.swing.JFrame {
         tambildata.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/nabil/images/getdata.png"))); // NOI18N
         tambildata.setText("Ambil Data");
         tambildata.setEnabled(false);
+        tambildata.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                tambildataMouseEntered(evt);
+            }
+        });
         tambildata.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 tambildataActionPerformed(evt);
@@ -321,6 +339,11 @@ public class Laporan extends javax.swing.JFrame {
         thapus.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/nabil/images/delete.png"))); // NOI18N
         thapus.setText("Hapus     ");
         thapus.setEnabled(false);
+        thapus.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                thapusMouseEntered(evt);
+            }
+        });
         thapus.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 thapusActionPerformed(evt);
@@ -658,7 +681,7 @@ public class Laporan extends javax.swing.JFrame {
                 tbersihActionPerformed(evt);
                 utilities.clickSuccess();
                 JOptionPane.showMessageDialog(null, "Data berhasil terhapus");
-            } else if (ok == JOptionPane.NO_OPTION) {                
+            } else if (ok == JOptionPane.NO_OPTION) {
                 utilities.clickCancel();
                 tbersihActionPerformed(evt);
             }
@@ -722,6 +745,36 @@ public class Laporan extends javax.swing.JFrame {
     private void tbersihMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_tbersihMouseClicked
         utilities.clickGo();
     }//GEN-LAST:event_tbersihMouseClicked
+
+    private void tbersihMouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_tbersihMouseEntered
+        if (tbersih.isEnabled()) {
+            utilities.clickHover();
+        }
+    }//GEN-LAST:event_tbersihMouseEntered
+
+    private void thitungMouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_thitungMouseEntered
+        if (thitung.isEnabled()) {
+            utilities.clickHover();
+        }
+    }//GEN-LAST:event_thitungMouseEntered
+
+    private void tsimpanMouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_tsimpanMouseEntered
+        if (tsimpan.isEnabled()) {
+            utilities.clickHover();
+        }
+    }//GEN-LAST:event_tsimpanMouseEntered
+
+    private void thapusMouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_thapusMouseEntered
+        if (thapus.isEnabled()) {
+            utilities.clickHover();
+        }
+    }//GEN-LAST:event_thapusMouseEntered
+
+    private void tambildataMouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_tambildataMouseEntered
+        if (tambildata.isEnabled()) {
+            utilities.clickHover();
+        }
+    }//GEN-LAST:event_tambildataMouseEntered
 
     /**
      * @param args the command line arguments
