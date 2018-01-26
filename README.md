@@ -20,6 +20,20 @@ Features:<br/>
 -Centering message on JOptionPane<br/>
 -And many more<br/>
 <br/>
+
+Kekurangan:<br/>
+-Blom MVC<br/>
+-Alur program belom sepenuhnya benar<br/>
+
 CREATED BY  : Nabil Fawwaz Elqayyim<br/>
 WEB         : www.nabilfawwaz.com<br/>
 Email       : mail@nabilfawwaz.com<br/>
+
+Cara:
+buat database bernama: KKP --> import kkp.sql --> jalankan demo.exe<br/>
+Username: nabil <br/>
+Password: fq <br/>
+</br>
+Kalau work di demo.exe berarti work saat menjalankan project di netbeans<br/>
+<br/>
+Min requirement: JRE 7 (Recommended JDK 7)<br/>
