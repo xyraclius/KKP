@@ -24,13 +24,13 @@ Features:<br/>
 Kekurangan:<br/>
 -Blom MVC<br/>
 -Alur program belom sepenuhnya benar<br/>
-
+<br>
 CREATED BY  : Nabil Fawwaz Elqayyim<br/>
 WEB         : www.nabilfawwaz.com<br/>
 Email       : mail@nabilfawwaz.com<br/>
-
+<br>
 Cara:
-buat database bernama: KKP --> import kkp.sql --> jalankan demo.exe<br/>
+buat database bernama: KKP --> Pilih database KKP --> tab import[PHPMYADMIN] --> import kkp.sql --> jalankan demo.exe<br/>
 Username: nabil <br/>
 Password: fq <br/>
 </br>
