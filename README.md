@@ -5,7 +5,7 @@ Koperasi Simpan Pinjam<br/>
 <br/>
 Features:<br/>
 -JCalendar<br/>
--Black yye theme<br/>
+-Black eye theme<br/>
 -Sound effects when clicking/saving/updating/deleting<br/>
 -Admin login<br/>
 -Awesome Progress Bar<br/>
