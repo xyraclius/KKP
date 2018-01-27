@@ -36,4 +36,4 @@ Password: fq <br/>
 </br>
 Kalau work di demo.exe berarti work saat menjalankan project di netbeans<br/>
 <br/>
-Min requirement: JRE 7 (Recommended JDK 7)<br/>
+Min requirement: JRE 7 (Recommended JDK 8)<br/>
